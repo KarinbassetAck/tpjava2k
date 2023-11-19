@@ -26,7 +26,6 @@ public class Tecnico {
             System.out.println("El técnico " + nombre + " no puede resolver el incidente.");
         }
     }
-
     // Método para mostrar los incidentes asignados al técnico
     public void mostrarIncidentesAsignados() {
         System.out.println("Incidentes asignados a " + nombre + ":");
@@ -34,7 +33,6 @@ public class Tecnico {
             System.out.println("- " + incidente);
         }
     }
-
     // Método para verificar si el técnico tiene la especialidad requerida
     private boolean coincideEspecialidad(String especialidad) {
         return especialidades.contains(especialidad);
