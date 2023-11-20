@@ -4,7 +4,6 @@ import utn.ReporteIncidentes.logicaNegocio.Cliente;
 import utn.ReporteIncidentes.logicaNegocio.Servicio;
 import utn.ReporteIncidentes.logicaNegocio.Tecnico;
 import utn.ReporteIncidentes.logicaNegocio.Incidente;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +40,7 @@ public class Main {
     tecnico2.mostrarIncidentesAsignados();
 
         while (!salir) {
-            System.out.println("=== Menú Principal ===");
+            System.out.println("============= Menú Principal ===============");
             System.out.println("1. Ver información del Cliente");
             System.out.println("2. Ver información del Técnico");
             System.out.println("3. Ver información del Incidente");
