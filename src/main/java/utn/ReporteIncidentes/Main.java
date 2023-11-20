@@ -15,8 +15,8 @@ public class Main {
     List<Incidente> incidentes = new ArrayList<>();
     incidentes.add(new Incidente("Problema de red", "Redes"));
     incidentes.add(new Incidente("Problema de software", "Software"));
-    Cliente cliente1 = new Cliente("Empresa CorreoArgentino", "12345678901");
-    Cliente cliente2 = new Cliente("Empresa FuerzaLista", "23456789012");
+    Cliente cliente1 = new Cliente("Empresa A", "12345678901");
+    Cliente cliente2 = new Cliente("Empresa B", "23456789012");
     Tecnico tecnico1 = new Tecnico("Juan", List.of("Redes", "Seguridad"));
     Tecnico tecnico2 = new Tecnico("Maria", List.of("Soporte"));
 
