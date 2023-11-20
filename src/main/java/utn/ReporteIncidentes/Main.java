@@ -79,7 +79,6 @@ public class Main {
                     System.out.println("Opción no válida. Intente de nuevo.");
             }
         }
-
         System.out.println("Saliendo del programa. ¡Hasta luego!");
     }
 
