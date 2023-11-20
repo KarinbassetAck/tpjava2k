@@ -10,7 +10,6 @@ public class Servicio {
         this.nombre = nombre;
         this.costoMensual = costoMensual;
     }
-
     // Método toString para obtener una representación en cadena del servicio
     @Override
     public String toString() {
