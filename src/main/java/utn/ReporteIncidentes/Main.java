@@ -10,8 +10,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean salir = false;
+    Scanner scanner = new Scanner(System.in);
+    boolean salir = false;
     List<Incidente> incidentes = new ArrayList<>();
     incidentes.add(new Incidente("Problema de red", "Redes"));
     incidentes.add(new Incidente("Problema de software", "Software"));
@@ -23,8 +23,8 @@ public class Main {
     Incidente incidente1 = new Incidente("Problema de red", "Redes");
     Incidente incidente2 = new Incidente("Problema de software", "Software");
     Servicio servicio1 = new Servicio("Electricidad",2500);
-        Servicio servicio2 = new Servicio("Gas",4200);
-        Servicio servicio3 = new Servicio("Cloacas",5000);
+    Servicio servicio2 = new Servicio("Gas",4200);
+    Servicio servicio3 = new Servicio("Cloacas",5000);
     cliente1.contratarServicio(servicio1);
     cliente1.contratarServicio(servicio3);
     cliente1.contratarServicio(servicio2);
