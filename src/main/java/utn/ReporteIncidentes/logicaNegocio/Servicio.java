@@ -4,7 +4,6 @@ import lombok.Data;
 public class Servicio {
     private String nombre;
     private double costoMensual;
-
     // Constructor
     public Servicio(String nombre, double costoMensual) {
         this.nombre = nombre;
