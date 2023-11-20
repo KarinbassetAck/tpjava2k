@@ -7,7 +7,7 @@ import java.util.List;
 public class Cliente {
     private String razonSocial;
     private String cuit;
-    private List<String> serviciosContratados;
+    private List<Servicio> serviciosContratados;
     // Constructor
     public Cliente(String razonSocial, String cuit) {
         this.razonSocial = razonSocial;
@@ -15,14 +15,14 @@ public class Cliente {
         this.serviciosContratados = new ArrayList<>();
     }
     // Método para agregar un servicio contratado
-    public void contratarServicio(String servicio) {
-        serviciosContratados.add(servicio);
+    public void contratarServicio(Servicio servicio1) {
+        serviciosContratados.add(servicio1);
         System.out.println("¡Servicio contratado con éxito!");
     }
     // Método para mostrar los servicios contratados
     public void mostrarServiciosContratados() {
         System.out.println("Servicios contratados por " + razonSocial + " (CUIT: " + cuit + "):");
-        for (String servicio : serviciosContratados) {
+        for (Servicio servicio : serviciosContratados) {
             System.out.println("-" + servicio);
         }
     }
