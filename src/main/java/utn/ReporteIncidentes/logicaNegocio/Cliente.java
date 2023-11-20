@@ -20,7 +20,6 @@ public class Cliente {
         serviciosContratados.add(servicio);
         System.out.println("¡Servicio contratado con éxito!");
     }
-
     // Método para mostrar los servicios contratados
     public void mostrarServiciosContratados() {
         System.out.println("Servicios contratados por " + razonSocial + " (CUIT: " + cuit + "):");

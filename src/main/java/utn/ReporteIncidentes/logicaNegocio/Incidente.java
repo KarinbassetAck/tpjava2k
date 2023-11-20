@@ -1,6 +1,5 @@
 package utn.ReporteIncidentes.logicaNegocio;
 import lombok.Data;
-
 @Data
 public class Incidente {
     private String nombre;
